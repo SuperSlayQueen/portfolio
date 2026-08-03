@@ -1,7 +1,9 @@
 /* Мурина Софья — portfolio
+   Только светлая тема
    Inter + Inconsolata (free, as on brett.land)
    Space Grotesk — free stand-in for Adobe Neue Kabel */
 
+/* Принудительно светлая тема */
 :root {
   --ivory: #fffcec;
   --cornsilk: #fef0cc;
@@ -18,6 +20,20 @@
   --pad: clamp(1.25rem, 4.5vw, 4.5rem);
   --max: 78rem;
   --nav-h: 4.25rem;
+}
+
+/* Принудительно светлая тема для темного режима системы */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ivory: #fffcec;
+    --cornsilk: #fef0cc;
+    --royal: #2a66ad;
+    --royal-deep: #1e4f8a;
+    --ink: #152238;
+    --muted: rgba(42, 102, 173, 0.72);
+    --line: rgba(42, 102, 173, 0.16);
+    --surface: #ffffff;
+  }
 }
 
 *,
@@ -734,10 +750,6 @@ button {
 @keyframes grid-shift {
   from { transform: translate(0, 0); }
   to { transform: translate(56px, 56px); }
-}
-
-:root {
-  color-scheme: light; /* Или просто light */
 }
 
 /* —— Responsive —— */
