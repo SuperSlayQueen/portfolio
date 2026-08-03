@@ -736,11 +736,8 @@ button {
   to { transform: translate(56px, 56px); }
 }
 
-@media (prefers-color-scheme: light) {
-  body {
-    background: var(--ivory);
-    color: var(--royal);
-  }
+:root {
+  color-scheme: light; /* Или просто light */
 }
 
 /* —— Responsive —— */
