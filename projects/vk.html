@@ -12,7 +12,14 @@
 </head>
 <body>
   <header class="site-nav">
-    <a class="nav-brand" href="../index.html">Мурина Софья</a>
+    <div class="nav-contacts">
+      <a class="nav-icon" href="https://t.me/dungeonmaster2007" target="_blank" rel="noopener" aria-label="Написать в Telegram">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
+      </a>
+      <a class="nav-icon" href="mailto:murinasofa144@gmail.com" aria-label="Написать на почту">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/></svg>
+      </a>
+    </div>
     <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu">Меню</button>
     <nav id="nav-menu" class="nav-links" aria-label="Основная навигация">
       <a href="../index.html">Главная</a>
@@ -21,78 +28,55 @@
     </nav>
   </header>
 
-  <main>
-    <article class="section case-hero">
-      <div class="wrap">
+  <main class="case-page">
+    <div class="wrap case-shell">
+      <aside class="case-sticky reveal">
         <a class="back-link" href="../works.html">← Все работы</a>
-        <p class="eyebrow reveal">Кейс 02</p>
-        <h1 class="display reveal">VK Education</h1>
-        <div class="case-meta reveal">
-          <span>Landing page</span>
+        <p class="eyebrow">Кейс 02</p>
+        <h1 class="display">VK Education</h1>
+        <div class="case-meta">
+          <span>Landing</span>
           <span>Education</span>
           <span>Desktop + Mobile</span>
         </div>
-        <p class="lede reveal">
-          Продающий лендинг весеннего чемпионата VK Education для направлений «Дизайн» и «Разработка» — с фокусом на студентов 18–25 лет и конверсию в регистрацию.
+        <p class="lede">
+          Лендинг весеннего чемпионата VK Education для направлений «Дизайн» и «Разработка». Цель — регистрация студентов 18–25 лет.
         </p>
 
-        <div class="case-layout">
-          <aside class="case-aside reveal">
-            <h3>Задача</h3>
-            <ul>
-              <li>Молодёжный визуал, близкий ЦА</li>
-              <li>Ясно донести условия, направления и призы</li>
-              <li>Снизить барьер перед регистрацией</li>
-              <li>Адаптация desktop / mobile</li>
-            </ul>
+        <div class="case-block">
+          <h3>Задача</h3>
+          <ul>
+            <li>Молодёжный визуал без «учебного» тона</li>
+            <li>Ясно показать направления, призы и условия</li>
+            <li>Снять барьер перед кнопкой «Участвовать»</li>
+          </ul>
+        </div>
 
-            <h3>Решение</h3>
-            <p class="body-text" style="max-width: none; font-size: 0.95rem;">
-              Весенняя концепция в зелёной гамме с природными акцентами — рост, развитие, новые возможности. Два направления разделены визуально; призы (100 000 / 50 000 / 30 000 ₽) на видном месте; sticky-кнопка «Участвовать» всегда под рукой.
-            </p>
-
-            <h3>Ключевые блоки</h3>
-            <ul>
-              <li>«Что тебя ждёт» — прозрачность процесса</li>
-              <li>FAQ снимает возражения</li>
-              <li>Иерархия: от общего к частному</li>
-            </ul>
-          </aside>
-
-          <div class="gallery reveal">
-            <figure>
-              <img src="../assets/projects/vk/desktop.jpg" alt="VK Education — desktop-версия лендинга" />
-              <figcaption>Desktop</figcaption>
-            </figure>
-            <figure>
-              <img src="../assets/projects/vk/mobile.jpg" alt="VK Education — mobile-версия" loading="lazy" />
-              <figcaption>Mobile</figcaption>
-            </figure>
-          </div>
+        <div class="case-block">
+          <h3>Решение</h3>
+          <p>
+            Весенняя зелёная концепция: рост и новые возможности. Два трека разделены визуально, призы на первом плане, sticky-CTA всегда доступна. FAQ закрывает типовые вопросы до регистрации.
+          </p>
         </div>
 
         <div class="next-project">
-          <span>Следующий проект</span>
+          <span>Далее</span>
           <a href="quest.html">Quest Habits →</a>
         </div>
-      </div>
-    </article>
-  </main>
+      </aside>
 
-  <footer class="site-footer">
-    <div class="wrap footer-grid">
-      <p>Дизайн, который работает</p>
-      <p>Россия</p>
-      <div>
-        <a href="https://t.me/dungeonmaster2007" target="_blank" rel="noopener">Telegram</a><br />
-        <button class="copy-email" type="button" data-email="murinasofa144@gmail.com">
-          <span class="default">murinasofa144@gmail.com</span>
-          <span class="copied">Скопировано!</span>
-        </button>
+      <div class="case-gallery reveal">
+        <figure class="shot">
+          <img src="../assets/projects/vk/desktop.jpg" alt="VK Education — desktop" />
+          <figcaption>Desktop</figcaption>
+        </figure>
+        <figure class="shot shot-frame">
+          <img src="../assets/projects/vk/mobile.jpg" alt="VK Education — mobile" loading="lazy" />
+          <figcaption>Mobile</figcaption>
+        </figure>
       </div>
-      <p>© <span data-year></span> Мурина Софья</p>
     </div>
-  </footer>
+  </main>
 
   <script src="../script.js"></script>
 </body>

@@ -12,7 +12,14 @@
 </head>
 <body>
   <header class="site-nav">
-    <a class="nav-brand" href="../index.html">Мурина Софья</a>
+    <div class="nav-contacts">
+      <a class="nav-icon" href="https://t.me/dungeonmaster2007" target="_blank" rel="noopener" aria-label="Написать в Telegram">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
+      </a>
+      <a class="nav-icon" href="mailto:murinasofa144@gmail.com" aria-label="Написать на почту">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/></svg>
+      </a>
+    </div>
     <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu">Меню</button>
     <nav id="nav-menu" class="nav-links" aria-label="Основная навигация">
       <a href="../index.html">Главная</a>
@@ -21,102 +28,91 @@
     </nav>
   </header>
 
-  <main>
-    <article class="section case-hero">
-      <div class="wrap">
+  <main class="case-page">
+    <div class="wrap case-shell">
+      <aside class="case-sticky reveal">
         <a class="back-link" href="../works.html">← Все работы</a>
-        <p class="eyebrow reveal">Кейс 03</p>
-        <h1 class="display reveal">Quest Habits</h1>
-        <div class="case-meta reveal">
-          <span>Mobile app</span>
+        <p class="eyebrow">Кейс 03</p>
+        <h1 class="display">Quest Habits</h1>
+        <div class="case-meta">
+          <span>Mobile</span>
           <span>Gamification</span>
           <span>UX/UI</span>
         </div>
-        <p class="lede reveal">
-          Приложение для привычек в формате RPG: задачи становятся квестами, опыт качает персонажа, а ошибки — часть игры, а не повод всё бросить. ЦА — 14–35 лет.
+        <p class="lede">
+          Привычки в формате RPG: задачи становятся квестами, опыт качает персонажа, а пропуск дня — часть игры, а не повод всё бросить.
         </p>
 
-        <div class="case-layout">
-          <aside class="case-aside reveal">
-            <h3>Задача</h3>
-            <ul>
-              <li>Превратить to-do в устойчивую привычку через игру</li>
-              <li>Система XP, уровней и достижений</li>
-              <li>Яркая ассоциация с играми детства</li>
-            </ul>
+        <div class="case-block">
+          <h3>Задача</h3>
+          <ul>
+            <li>Сделать to-do эмоциональным, не скучным</li>
+            <li>Встроить XP, уровни и стрики</li>
+            <li>Попасть в вкус аудитории 14–35</li>
+          </ul>
+        </div>
 
-            <h3>Решение</h3>
-            <p class="body-text" style="max-width: none; font-size: 0.95rem;">
-              Тёмно-фиолетовая тема с неоново-зелёным акцентом и пиксельной эстетикой. Весь UX говорит на игровом сленге: ежедневные квесты, серии, трофеи и прокачка характеристик.
-            </p>
+        <div class="case-block">
+          <h3>Решение</h3>
+          <p>
+            Тёмно-фиолетовая тема, неоново-зелёный акцент и пиксельная эстетика. Весь интерфейс говорит на игровом сленге: квесты, трофеи, прокачка характеристик.
+          </p>
+        </div>
 
-            <h3>Механики</h3>
-            <ul>
-              <li>Задачи = ежедневные квесты</li>
-              <li>Действия дают XP и качают героя</li>
-              <li>Стрики за регулярность</li>
-              <li>Пропуск дня — часть сюжета, не наказание</li>
-            </ul>
-          </aside>
-
-          <div class="gallery-phone reveal">
-            <figure>
-              <img src="../assets/projects/quest/01-start.jpg" alt="Старт игры" />
-              <figcaption>Старт</figcaption>
-            </figure>
-            <figure>
-              <img src="../assets/projects/quest/02-character.jpg" alt="Создание персонажа" loading="lazy" />
-              <figcaption>Персонаж</figcaption>
-            </figure>
-            <figure>
-              <img src="../assets/projects/quest/03-goals.jpg" alt="Выбор целей" loading="lazy" />
-              <figcaption>Цели</figcaption>
-            </figure>
-            <figure>
-              <img src="../assets/projects/quest/04-hub.jpg" alt="Игровой хаб" loading="lazy" />
-              <figcaption>Игровой хаб</figcaption>
-            </figure>
-            <figure>
-              <img src="../assets/projects/quest/05-success.jpg" alt="Успешное выполнение" loading="lazy" />
-              <figcaption>Успех</figcaption>
-            </figure>
-            <figure>
-              <img src="../assets/projects/quest/06-missed.jpg" alt="Пропущенный день" loading="lazy" />
-              <figcaption>Пропуск</figcaption>
-            </figure>
-            <figure>
-              <img src="../assets/projects/quest/07-trophies.jpg" alt="Трофеи" loading="lazy" />
-              <figcaption>Трофеи</figcaption>
-            </figure>
-            <figure>
-              <img src="../assets/projects/quest/08-wireflow.jpg" alt="User flow" loading="lazy" />
-              <figcaption>User flow</figcaption>
-            </figure>
-          </div>
+        <div class="case-block">
+          <h3>Механики</h3>
+          <ul>
+            <li>Ежедневные квесты вместо списка дел</li>
+            <li>XP и развитие персонажа</li>
+            <li>Серии за регулярность</li>
+            <li>Ошибка = часть сюжета</li>
+          </ul>
         </div>
 
         <div class="next-project">
-          <span>Следующий проект</span>
+          <span>Далее</span>
           <a href="infographic.html">Инфографика →</a>
         </div>
-      </div>
-    </article>
-  </main>
+      </aside>
 
-  <footer class="site-footer">
-    <div class="wrap footer-grid">
-      <p>Дизайн, который работает</p>
-      <p>Россия</p>
-      <div>
-        <a href="https://t.me/dungeonmaster2007" target="_blank" rel="noopener">Telegram</a><br />
-        <button class="copy-email" type="button" data-email="murinasofa144@gmail.com">
-          <span class="default">murinasofa144@gmail.com</span>
-          <span class="copied">Скопировано!</span>
-        </button>
+      <div class="case-gallery reveal">
+        <div class="shot-phone-grid">
+          <figure class="shot shot-phone">
+            <img src="../assets/projects/quest/01-start.jpg" alt="Старт" />
+            <figcaption>Старт</figcaption>
+          </figure>
+          <figure class="shot shot-phone">
+            <img src="../assets/projects/quest/02-character.jpg" alt="Персонаж" loading="lazy" />
+            <figcaption>Персонаж</figcaption>
+          </figure>
+          <figure class="shot shot-phone">
+            <img src="../assets/projects/quest/03-goals.jpg" alt="Цели" loading="lazy" />
+            <figcaption>Цели</figcaption>
+          </figure>
+          <figure class="shot shot-phone">
+            <img src="../assets/projects/quest/04-hub.jpg" alt="Игровой хаб" loading="lazy" />
+            <figcaption>Игровой хаб</figcaption>
+          </figure>
+          <figure class="shot shot-phone">
+            <img src="../assets/projects/quest/05-success.jpg" alt="Успех" loading="lazy" />
+            <figcaption>Успех</figcaption>
+          </figure>
+          <figure class="shot shot-phone">
+            <img src="../assets/projects/quest/06-missed.jpg" alt="Пропуск" loading="lazy" />
+            <figcaption>Пропуск</figcaption>
+          </figure>
+          <figure class="shot shot-phone">
+            <img src="../assets/projects/quest/07-trophies.jpg" alt="Трофеи" loading="lazy" />
+            <figcaption>Трофеи</figcaption>
+          </figure>
+          <figure class="shot shot-phone">
+            <img src="../assets/projects/quest/08-wireflow.jpg" alt="User flow" loading="lazy" />
+            <figcaption>User flow</figcaption>
+          </figure>
+        </div>
       </div>
-      <p>© <span data-year></span> Мурина Софья</p>
     </div>
-  </footer>
+  </main>
 
   <script src="../script.js"></script>
 </body>

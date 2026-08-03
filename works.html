@@ -12,7 +12,14 @@
 </head>
 <body>
   <header class="site-nav">
-    <a class="nav-brand" href="index.html">Мурина Софья</a>
+    <div class="nav-contacts">
+      <a class="nav-icon" href="https://t.me/dungeonmaster2007" target="_blank" rel="noopener" aria-label="Написать в Telegram">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
+      </a>
+      <a class="nav-icon" href="mailto:murinasofa144@gmail.com" aria-label="Написать на почту">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/></svg>
+      </a>
+    </div>
     <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu">Меню</button>
     <nav id="nav-menu" class="nav-links" aria-label="Основная навигация">
       <a href="index.html">Главная</a>
@@ -24,75 +31,64 @@
   <main>
     <section class="section">
       <div class="wrap">
-        <p class="eyebrow reveal">Каталог</p>
-        <h1 class="display reveal">Работы</h1>
-        <p class="lede reveal" style="margin-top: 1rem; margin-bottom: 2.5rem;">
-          Продуктовый UX/UI, лендинги и графика — четыре кейса с экранами и описанием задач.
-        </p>
+        <div class="works-intro">
+          <div class="reveal">
+            <p class="eyebrow">Избранное</p>
+            <h1 class="display">Работы</h1>
+          </div>
+          <p class="lede reveal">
+            Четыре кейса: продукт, лендинг, мобильный UX и коммерческая графика. Откройте любой — слева краткое описание, справа все экраны.
+          </p>
+        </div>
 
         <div class="works-grid">
           <a class="work-card reveal" href="projects/neurai.html">
             <div class="work-card-media">
-              <img src="assets/projects/neurai/thumb.jpg" alt="NeuraAI — обложка лендинга" loading="lazy" />
+              <img src="assets/projects/neurai/thumb.jpg" alt="NeuraAI — превью лендинга" loading="lazy" />
             </div>
             <div class="work-card-meta">
               <span class="type">SaaS · UX/UI · Design system</span>
               <span class="title">NeuraAI</span>
-              <span class="arrow">Открыть →</span>
+              <span class="arrow">Смотреть →</span>
             </div>
           </a>
 
           <a class="work-card reveal" href="projects/vk.html">
             <div class="work-card-media">
-              <img src="assets/projects/vk/cover.jpg" alt="VK Education — обложка лендинга" loading="lazy" />
+              <img src="assets/projects/vk/thumb.jpg" alt="VK Education — превью лендинга" loading="lazy" />
             </div>
             <div class="work-card-meta">
               <span class="type">Landing · Education</span>
               <span class="title">VK Education</span>
-              <span class="arrow">Открыть →</span>
+              <span class="arrow">Смотреть →</span>
             </div>
           </a>
 
           <a class="work-card reveal" href="projects/quest.html">
-            <div class="work-card-media is-phone">
-              <img src="assets/projects/quest/cover.jpg" alt="Quest Habits — игровой хаб" loading="lazy" />
+            <div class="work-card-media">
+              <img src="assets/projects/quest/thumb.jpg" alt="Quest Habits — превью приложения" loading="lazy" />
             </div>
             <div class="work-card-meta">
               <span class="type">Mobile · Gamification</span>
               <span class="title">Quest Habits</span>
-              <span class="arrow">Открыть →</span>
+              <span class="arrow">Смотреть →</span>
             </div>
           </a>
 
           <a class="work-card reveal" href="projects/infographic.html">
             <div class="work-card-media">
-              <img src="assets/projects/infographic/cover.jpg" alt="Инфографика для маркетплейса" loading="lazy" />
+              <img src="assets/projects/infographic/thumb.jpg" alt="Инфографика — превью обложки" loading="lazy" />
             </div>
             <div class="work-card-meta">
               <span class="type">Graphic · E-commerce</span>
               <span class="title">Инфографика</span>
-              <span class="arrow">Открыть →</span>
+              <span class="arrow">Смотреть →</span>
             </div>
           </a>
         </div>
       </div>
     </section>
   </main>
-
-  <footer class="site-footer">
-    <div class="wrap footer-grid">
-      <p>Дизайн, который работает</p>
-      <p>Россия</p>
-      <div>
-        <a href="https://t.me/dungeonmaster2007" target="_blank" rel="noopener">Telegram</a><br />
-        <button class="copy-email" type="button" data-email="murinasofa144@gmail.com">
-          <span class="default">murinasofa144@gmail.com</span>
-          <span class="copied">Скопировано!</span>
-        </button>
-      </div>
-      <p>© <span data-year></span> Мурина Софья</p>
-    </div>
-  </footer>
 
   <script src="script.js"></script>
 </body>
