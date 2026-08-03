@@ -736,6 +736,13 @@ button {
   to { transform: translate(56px, 56px); }
 }
 
+@media (prefers-color-scheme: light) {
+  body {
+    background: var(--ivory);
+    color: var(--royal);
+  }
+}
+
 /* —— Responsive —— */
 @media (max-width: 980px) {
   .hero-grid,
