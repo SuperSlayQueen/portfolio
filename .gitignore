@@ -1,0 +1,9 @@
+# Source design files (kept locally, optimized assets are published)
+NeuraAI/
+Инфографика/
+Лендинг ВК/
+Приложение to-do list в формате игры/
+*.pdf
+_make_thumb.py
+.DS_Store
+Thumbs.db

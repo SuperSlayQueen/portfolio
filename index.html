@@ -3,135 +3,72 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Sofia Murina — разработчик. Android, веб, Python, C#." />
-  <title>Sofia Murina — Portfolio</title>
+  <meta name="description" content="Мурина Софья — графический и UX/UI-дизайнер. Портфолио продуктов, лендингов и мобильных интерфейсов." />
+  <title>Мурина Софья — Портфолио</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Syne:wght@500;600;700;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;700&family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <div class="noise" aria-hidden="true"></div>
-
-  <header class="site-header">
-    <a class="logo" href="#top">SM</a>
-    <nav class="nav">
-      <a href="#work">Работы</a>
-      <a href="#skills">Навыки</a>
-      <a href="#contact">Контакт</a>
+  <header class="site-nav">
+    <a class="nav-brand" href="index.html">Мурина Софья</a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu">Меню</button>
+    <nav id="nav-menu" class="nav-links" aria-label="Основная навигация">
+      <a class="is-active" href="index.html">Главная</a>
+      <a href="works.html">Работы</a>
+      <a href="about.html">Обо мне</a>
     </nav>
   </header>
 
-  <main id="top">
-    <section class="hero" aria-label="Главная">
-      <div class="hero-visual" aria-hidden="true">
-        <div class="hero-grid"></div>
-        <div class="hero-orb hero-orb--a"></div>
-        <div class="hero-orb hero-orb--b"></div>
-        <div class="hero-line"></div>
-      </div>
-      <div class="hero-content">
-        <p class="brand reveal">Sofia Murina</p>
-        <h1 class="reveal reveal-delay-1">Код с характером.<br />Продукты с формой.</h1>
-        <p class="lede reveal reveal-delay-2">
-          Разрабатываю Android, веб и backend — от учебного Django до живых демо и приложений.
-        </p>
-        <div class="cta-row reveal reveal-delay-3">
-          <a class="btn btn-primary" href="#work">Смотреть проекты</a>
-          <a class="btn btn-ghost" href="https://github.com/SuperSlayQueen" target="_blank" rel="noopener">GitHub</a>
+  <main>
+    <section class="hero">
+      <div class="wrap">
+        <div class="hero-stage reveal">
+          <div class="hero-mark">
+            <p class="display">Мурина Софья</p>
+            <p class="tag">Графический · UX/UI · Product design</p>
+          </div>
         </div>
-      </div>
-    </section>
 
-    <section id="work" class="section work">
-      <div class="section-head">
-        <h2 class="reveal">Избранные работы</h2>
-        <p class="section-lead reveal reveal-delay-1">Проекты с GitHub — от мобильных приложений до веб-каталогов.</p>
-      </div>
+        <div class="hero-grid">
+          <div class="reveal">
+            <h1 class="headline">Место, где дизайн<br />встречает продукт</h1>
+            <p class="lede">
+              Проектирую интерфейсы и визуальные системы для SaaS, веб-сервисов и мобильных приложений — от первого экрана до целостной дизайн-системы.
+            </p>
+          </div>
+          <div class="reveal">
+            <p class="body-text">
+              Вместо длинного elevator pitch — лучше посмотреть работы: AI-платформы, образовательные лендинги, игровые приложения и коммерческая инфографика.
+            </p>
+            <p class="body-text">
+              Около 10 MVP, опыт в команде с микросервисной архитектурой и задачами Product/Project Manager. Английский — B2.
+            </p>
+          </div>
+        </div>
 
-      <ul class="project-list">
-        <li class="project reveal">
-          <a href="https://github.com/SuperSlayQueen/aura-lab-catalog" target="_blank" rel="noopener">
-            <span class="project-meta">CSS · HTML</span>
-            <span class="project-title">AURA LAB</span>
-            <span class="project-desc">Каталог одежды — визуальный HTML/CSS demo с акцентом на атмосферу бренда.</span>
-            <span class="project-arrow" aria-hidden="true">→</span>
-          </a>
-        </li>
-        <li class="project reveal">
-          <a href="https://github.com/SuperSlayQueen/Anticafe_Django" target="_blank" rel="noopener">
-            <span class="project-meta">Django · Python</span>
-            <span class="project-title">Anticafe Django</span>
-            <span class="project-desc">Учебная практика: модули ПО и приложения для компьютерных систем.</span>
-            <span class="project-arrow" aria-hidden="true">→</span>
-          </a>
-        </li>
-        <li class="project reveal">
-          <a href="https://github.com/SuperSlayQueen/AndroidApp" target="_blank" rel="noopener">
-            <span class="project-meta">Kotlin · Android</span>
-            <span class="project-title">Android App</span>
-            <span class="project-desc">Нативное мобильное приложение на Kotlin.</span>
-            <span class="project-arrow" aria-hidden="true">→</span>
-          </a>
-        </li>
-        <li class="project reveal">
-          <a href="https://github.com/SuperSlayQueen/Murina_S" target="_blank" rel="noopener">
-            <span class="project-meta">C# · .NET</span>
-            <span class="project-title">Murina_S</span>
-            <span class="project-desc">Практика на C# и .NET.</span>
-            <span class="project-arrow" aria-hidden="true">→</span>
-          </a>
-        </li>
-        <li class="project reveal">
-          <a href="https://github.com/SuperSlayQueen/polza-vibecoder-outreach-test" target="_blank" rel="noopener">
-            <span class="project-meta">Python</span>
-            <span class="project-title">Vibecoder Outreach</span>
-            <span class="project-desc">Тестовое задание Polza Agency — outreach-инструмент.</span>
-            <span class="project-arrow" aria-hidden="true">→</span>
-          </a>
-        </li>
-        <li class="project reveal">
-          <a href="https://github.com/SuperSlayQueen/tech_2026_murina" target="_blank" rel="noopener">
-            <span class="project-meta">Python</span>
-            <span class="project-title">tech_2026_murina</span>
-            <span class="project-desc">Python-проект 2026.</span>
-            <span class="project-arrow" aria-hidden="true">→</span>
-          </a>
-        </li>
-      </ul>
-    </section>
-
-    <section id="skills" class="section skills">
-      <div class="section-head">
-        <h2 class="reveal">Стек</h2>
-        <p class="section-lead reveal reveal-delay-1">Инструменты, с которыми работаю чаще всего.</p>
-      </div>
-      <div class="skills-track" aria-label="Навыки">
-        <span>Kotlin</span>
-        <span>Android</span>
-        <span>Python</span>
-        <span>Django</span>
-        <span>C#</span>
-        <span>.NET</span>
-        <span>HTML / CSS</span>
-        <span>JavaScript</span>
-      </div>
-    </section>
-
-    <section id="contact" class="section contact">
-      <div class="contact-inner">
-        <h2 class="reveal">Давайте сделаем что-то вместе</h2>
-        <p class="section-lead reveal reveal-delay-1">Открыта к коллаборациям, стажировкам и интересным задачам.</p>
-        <div class="cta-row reveal reveal-delay-2">
-          <a class="btn btn-primary" href="https://github.com/SuperSlayQueen" target="_blank" rel="noopener">Написать на GitHub</a>
+        <div class="btn-row reveal">
+          <a class="btn" href="works.html">Смотреть работы</a>
+          <a class="btn" href="about.html">Обо мне</a>
         </div>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <p>© <span id="year"></span> Sofia Murina</p>
-    <a href="https://github.com/SuperSlayQueen" target="_blank" rel="noopener">@SuperSlayQueen</a>
+    <div class="wrap footer-grid">
+      <p>Дизайн, который работает</p>
+      <p>Россия</p>
+      <div>
+        <a href="https://t.me/dungeonmaster2007" target="_blank" rel="noopener">Telegram</a><br />
+        <button class="copy-email" type="button" data-email="murinasofa144@gmail.com">
+          <span class="default">murinasofa144@gmail.com</span>
+          <span class="copied">Скопировано!</span>
+        </button>
+      </div>
+      <p>© <span data-year></span> Мурина Софья</p>
+    </div>
   </footer>
 
   <script src="script.js"></script>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="О Муриной Софье — графический и UX/UI-дизайнер, разработчик." />
+  <title>Обо мне — Мурина Софья</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;700&family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-nav">
+    <a class="nav-brand" href="index.html">Мурина Софья</a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu">Меню</button>
+    <nav id="nav-menu" class="nav-links" aria-label="Основная навигация">
+      <a href="index.html">Главная</a>
+      <a href="works.html">Работы</a>
+      <a class="is-active" href="about.html">Обо мне</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="wrap">
+        <p class="eyebrow reveal">Профиль</p>
+        <h1 class="display reveal">Обо мне</h1>
+
+        <div class="about-grid" style="margin-top: 2.5rem;">
+          <div class="reveal">
+            <p class="lede" style="max-width: 28ch;">
+              Графический и UX/UI-дизайнер. Разрабатываю веб-сервисы, SaaS и мобильные приложения.
+            </p>
+            <p class="body-text" style="margin-top: 1.25rem;">
+              Участвовала в ~10 MVP и нескольких веб-приложениях с микросервисной архитектурой. В проектах совмещала дизайн с ролью Product/Project Manager: выбор методологии (Agile, Scrum, Kanban), User Story, User Flow и организация процесса.
+            </p>
+            <p class="body-text">
+              Активно использую AI-инструменты — ChatGPT, Cursor и другие — чтобы быстрее проектировать и проверять гипотезы. Английский — B2.
+            </p>
+
+            <div class="stats">
+              <div class="stat">
+                <strong>~10</strong>
+                <span>MVP-проектов</span>
+              </div>
+              <div class="stat">
+                <strong>B2</strong>
+                <span>Английский</span>
+              </div>
+              <div class="stat">
+                <strong>AI</strong>
+                <span>в процессе работы</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="reveal">
+            <div class="about-block">
+              <h3>Чем занимаюсь</h3>
+              <ul>
+                <li>UX/UI и продуктовый дизайн (SaaS, веб, mobile)</li>
+                <li>Дизайн-системы и визуальные концепции</li>
+                <li>Лендинги и коммерческая графика</li>
+                <li>User Flow, User Story, сопровождение разработки</li>
+              </ul>
+            </div>
+
+            <div class="about-block" style="margin-top: 1.75rem;">
+              <h3>Инструменты и стек</h3>
+              <div class="skill-cloud">
+                <span class="skill">Figma</span>
+                <span class="skill">UX Research</span>
+                <span class="skill">Design System</span>
+                <span class="skill">HTML/CSS</span>
+                <span class="skill">Python</span>
+                <span class="skill">Django</span>
+                <span class="skill">Agile / Scrum</span>
+                <span class="skill">Kanban</span>
+                <span class="skill">ChatGPT</span>
+                <span class="skill">Cursor</span>
+              </div>
+            </div>
+
+            <div class="about-block" style="margin-top: 1.75rem;">
+              <h3>Контакты</h3>
+              <div class="contact-list">
+                <a href="mailto:murinasofa144@gmail.com">murinasofa144@gmail.com</a>
+                <a href="https://t.me/dungeonmaster2007" target="_blank" rel="noopener">Telegram · @dungeonmaster2007</a>
+                <a href="https://github.com/SuperSlayQueen" target="_blank" rel="noopener">GitHub · SuperSlayQueen</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="btn-row reveal">
+          <a class="btn" href="works.html">К работам</a>
+          <a class="btn" href="mailto:murinasofa144@gmail.com">Написать</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <p>Дизайн, который работает</p>
+      <p>Россия</p>
+      <div>
+        <a href="https://t.me/dungeonmaster2007" target="_blank" rel="noopener">Telegram</a><br />
+        <button class="copy-email" type="button" data-email="murinasofa144@gmail.com">
+          <span class="default">murinasofa144@gmail.com</span>
+          <span class="copied">Скопировано!</span>
+        </button>
+      </div>
+      <p>© <span data-year></span> Мурина Софья</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
